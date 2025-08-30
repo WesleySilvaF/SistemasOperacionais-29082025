@@ -1,0 +1,1 @@
+# SistemasOperacionais-29082025
