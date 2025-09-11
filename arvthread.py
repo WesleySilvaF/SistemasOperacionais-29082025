@@ -1,7 +1,7 @@
 #importação de biblioteca
-import threading #Importa Demódulos
-import time #Importa Demódulos
-import math #Importa Demódulos
+import threading #Importa Demódulos de threading
+import time #Importa Demódulos de tempo para calculos 
+import math #Importa Demódulos matemáticos
 #Estrutura da Thread
 def estruturaThread(nome, incio, fim):
     for i in range(incio, fim +1):
@@ -13,3 +13,4 @@ thread2 = threading.Thread(target=estruturaThread, args=("thread2", 50, 60)) #É
 
 thread1.start() #Comando usado para iniciar os funções
 thread2.start() #Comando usado para iniciar as funções
+
